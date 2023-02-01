@@ -12,6 +12,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .logo{
@@ -51,7 +52,7 @@ body{
 
 .country {
     margin: 8px;
-    font-size: 11px;
+    font-size: 14px;
     font-weight: 400;
     color: #2B283A;
 }
@@ -59,7 +60,7 @@ body{
 .locationMaps{
     font-family: 'Inter';
     font-weight: 400;
-    font-size: 10.24px;
+    font-size: 11px;
     text-decoration-line:underline;
     color: #918E9B;
 }
@@ -130,76 +131,76 @@ body{
     *{
         width: 100%;
       }
-      .header .logo{
+.header .logo{
         margin-left: 25% ;
       }
-      .article{
+.article{
         margin:-43px;
       }
-      .locationSection{
+.locationSection{
         display: flex;
         align-items: center;
       }
-      .article .articleSection{
+.article .articleSection{
         line-height: 0.4em;
         margin-left: 8px;
       }
-      .article .image{
+.article .image{
         width: 80%;
         height: 160px;
       }
-      .locationSection{
+.locationSection{
         white-space: nowrap;
       }
-      .locationSection > .country{
+.locationSection > .country{
        font-size: 9px;
        margin-left: 5px;
       }
-      .articleSection > .mapsUrl > .locationMaps{
+.articleSection > .mapsUrl > .locationMaps{
         font-size: 8px;
       }
-      .article .articleSection .titleArticle{
+.article .articleSection .titleArticle{
         font-size: 10px;
         line-height: 1em;
       }
-      .article .articleSection .date{
+.article .articleSection .date{
         white-space: nowrap;
       }
       
-      .article .articleSection .description{
+.article .articleSection .description{
         font-size: 6.5px;
       }
 }
 
 @media (max-width: 375px){
-    .header{
+.header{
         width:117%;
     }
-    .article{
+.article{
         margin: -40px;
     }
-    .mapsUrl > .locationMaps {
+.mapsUrl > .locationMaps {
         font-size:9px;
       }
       
-      .article .articleSection .locationIcon{
+.article .articleSection .locationIcon{
         width: 6px;
         height: 9px;
       }
     
-      .article .articleSection .country{
+.article .articleSection .country{
         font-size:11px;
       }
       
-      .article .articleSection .titleArticle{
+.article .articleSection .titleArticle{
         font-size: 11px;
       }
       
-      .article .articleSection .date{
+.article .articleSection .date{
         font-size: 8px;
       }
       
-      .article .articleSection .description{
+.article .articleSection .description{
         font-size: 9px;
       } 
 }
@@ -218,7 +219,7 @@ body{
 
 
 @media screen and (max-width: 800px) {
-    .description {
+ .description {
     font-size: 10.24px;
  }
     }
